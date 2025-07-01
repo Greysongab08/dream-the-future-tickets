@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tiket Konser</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+
+    .ticket {
+      width: 800px;
+      background: white;
+      border: 1px solid #000;
+      padding: 20px;
+      margin: auto;
+      box-sizing: border-box;
+    }
+
+    .section {
+      border-bottom: 1px solid #000;
+      padding: 10px 0;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+    }
+
+    .header span {
+      color: red;
+    }
+
+    .content {
+      display: flex;
+      margin-top: 10px;
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+    }
+
+    .left-section, .right-section {
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .left-section {
+      width: 60%;
+      border-right: 1px solid #000;
+    }
+
+    .left-section img {
+      width: 100%;
+      height: auto;
+    }
+
+    .right-section {
+      width: 40%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .right-section h2 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .right-section p {
+      margin: 5px 0;
+    }
+
+    .barcode img {
+      height: 60px;
+      margin-top: 10px;
+    }
+
+    .barcode {
+      margin-top: 10px;
+    }
+
+    .details {
+      padding-top: 10px;
+      border-bottom: 1px solid #000;
+      text-align: center;
+    }
+
+    .details .box {
+      border: 1px solid #000;
+      margin: 5px auto;
+      padding: 10px;
+      width: 80%;
+      box-sizing: border-box;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      padding-top: 10px;
+    }
+
+    .footer .info {
+      text-align: left;
+    }
+
+    .footer .ref {
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="ticket">
+
+    <div class="section header">
+      <div>
+        Type Cat: <span>Dream The Future</span> (Rp.50.000)<br>
+        Seating<br>
+        QN: 01
+      </div>
+    </div>
+
+    <div class="section content">
+      <div class="left-section">
+        <img src="poster-konser.png" alt="Poster Dream The Future">
+      </div>
+      <div class="right-section">
+        <h2>DAY 2</h2>
+        <p>2025.07.12 (SAT) 2.30PM</p>
+        <p><strong>NCT PROJECTS KEDIRI</strong></p>
+
+<div class="barcode">
+          <img src="https://barcode.tec-it.com/barcode.ashx?data=99000000000102&code=Code128&translate-esc=true" alt="Barcode">
+          <p>99000000000102</p>
+          <p><strong>TICKET 1 of 1</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section details">
+      <div><strong>THE DREAM SHOW 2: DREAM THE FUTURE - DAY 2</strong></div>
+      <div>12 JUL 2025 14:30 – 20:00</div>
+      <div>WE CAFE KOTA KEDIRI</div>
+      <div>JL. GARDENVILLE No.A-15B</div>
+    </div>
+
+    <div class="footer">
+      <div class="info">
+        <strong>XIQTAGKE</strong><br>
+        Theris Blublub
+      </div>
+      <div class="ref">
+        Ordered on 04 Juli 2025<br>
+        Ref: Online
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
